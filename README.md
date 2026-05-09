@@ -3,9 +3,13 @@
 <div align="center">
 
 ![LaTeX](https://img.shields.io/badge/LaTeX-XeLaTeX-008080?style=for-the-badge\&logo=latex\&logoColor=white)
+
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge)
+
 ![BibTeX](https://img.shields.io/badge/BibTeX-GB%2FT%207714--2015-orange?style=for-the-badge)
+
 ![Documentation](https://img.shields.io/badge/docs-ready-brightgreen?style=for-the-badge)
+
 [![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 现代化中文排版 · 模块化结构 · XeLaTeX 驱动 · 本地编译友好
