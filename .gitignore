@@ -1,5 +1,8 @@
-广东石油化工学院2026届毕业论文（设计）表格
-GDUPT学报
+# ==================== 大型附件/非必要文件 ====================
+广东石油化工学院2026届毕业论文（设计）表格/
+GDUPT学报/
+
+# ==================== LaTeX 编译中间文件 ====================
 *.aux
 *.log
 *.out
@@ -9,3 +12,57 @@ GDUPT学报
 *.synctex.gz
 *.thm
 *.nlo
+
+# 交叉引用 & 索引
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+
+# 术语/符号表
+*.nls
+*.gls
+*.glo
+*.glg
+*.ist
+*.acn
+*.acr
+*.alg
+
+# 超链接 & 书签
+*.nav
+*.snm
+*.vrb
+
+# pdfTeX 辅助
+*.fls
+*.fdb_latexmk
+
+# XeLaTeX 特有
+*.xdv
+
+# 其他中间产物
+*.run.xml
+*.bcf
+*.bak
+*.sav
+*.end
+
+# ==================== 编辑器 & 系统文件 ====================
+# VS Code
+.vscode/settings.json
+
+# TeXstudio
+*.txsprofile
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ==================== 编译输出 (可选: 取消注释以忽略 PDF) ====================
+# *.pdf
