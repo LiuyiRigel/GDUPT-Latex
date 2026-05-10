@@ -1,2 +1,11 @@
 广东石油化工学院2026届毕业论文（设计）表格
 GDUPT学报
+*.aux
+*.log
+*.out
+*.toc
+*.blg
+*.bbl
+*.synctex.gz
+*.thm
+*.nlo
