@@ -2,49 +2,68 @@
 %%                                                                            %%
 %%           Class 'GDUPT Bachelor Dissertation Template'                     %%
 %% ---------------------------------------------------------------------------%%
-%%     A Bachelor LaTeX template for Guangdong University of Petrolchemical   %%
-%%  Technolgy, Automation School                                              %%
+%%     A Bachelor LaTeX template for Guangdong University of Petrochemical    %%
+%%  Technology, Automation School                                             %%
 %%                                                                            %%
-%% Version: v0.0.1 beta                                                       %%
-%% Authors: Yicheng Zhang <zhangyicheng@gdupt.edu.cn>                         %%
-%%                        <YiZhang@lincoln.ac.uk>                             %%                  
-%% License: MIT License (c) 2021 Yicheng Zhang                                %%
-%% GitHub Repo:                                                               %%
+%% Version: v1.0.0 (2026-05-10)                                               %%
 %%                                                                            %%
-%%     Reference Repo:  [1] https://github.com/kks32/phd-thesis-template/     %%
-%%                      [2] https://github.com/tuna/thuthesis                 %%
-%%                      [3]https://github.com/szsdk/LZUthesis/                %%
+%% Original Author:  Yicheng Zhang <zhangyicheng@gdupt.edu.cn>                %%
+%%                              <YiZhang@lincoln.ac.uk>                       %%
+%% Maintainer:       LiuyiRigel <https://github.com/LiuyiRigel>
+%%                              <oshhhs1@gmail.com>
+%% License:          MIT License (c) 2021 Yicheng Zhang                       %%
+%%                   MIT License (c) 2026 LiuyiRigel (modifications)          %%
+%% GitHub Repo:      https://github.com/LiuyiRigel/GDUPT-Latex                %%
+%%                                                                            %%
+%% Reference Repos:  [1] https://github.com/kks32/phd-thesis-template/        %%
+%%                   [2] https://github.com/tuna/thuthesis                    %%
+%%                   [3] https://github.com/szsdk/LZUthesis/                  %%
+%%----------------------------------------------------------------------------%%
+%%  Modification History (LiuyiRigel):                                        %%
+%%    v1.0.0 (2026-05-10)                                                     %%
+%%      - 清理废弃/重复的包加载代码，精简类文件结构                            %%
+%%      - 完善 .gitignore，移除编译中间文件                                   %%
+%%      - 更新文档与 README，规范项目说明                                     %%
+%%      - 修复多处注释中的笔误（Petrolchemical → Petrochemical 等）           %%
+%%      - 优化代码可读性与维护性                                              %%
+%%----------------------------------------------------------------------------%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%============================ Acknowledgment ================================%%
 %%         Krishna Kumar  (Cambridge template author)                         %%
-%%         Ruini Xue <xueruini@gmail.com>, TUNA  (thuthesis template author)  %%                        
+%%         Ruini Xue <xueruini@gmail.com>, TUNA  (thuthesis template author)  %%
 %%         Shen Zhou (LZU template author)                                    %%
 %%         zoho@bbs.ctex.org （a brief Latex guide book author）              %%
 %%         HaoLuan <HLuan@lincoln.ac.uk> （who first lead me to use Latex）   %%
 %%                                                                            %%
-%%                                                                            %%
 %%         ctex.org <http://www.ctex.org/HomePage>                            %%
 %%     ...    ...                                                             %%
 %%----------------------------------------------------------------------------%%
-%%  Please forgive me copying and using a lot of the Krisna's and Ruini's code, 
-%%  and simply changing the  original class name to gdupt  (^_^)              %%
+%%  Please forgive me copying and using a lot of the Krisna's and Ruini's     %%
+%%  code, and simply changing the original class name to gdupt  (^_^)         %%
 %%============================================================================%%
 %% ***************************************************************************%%
-%%  Ver 0.0.1 beta                                                            %%
-%%    *修正了正文部分奇数页页眉出会多处一个阿拉伯数字的章号                   %%
+%%  Changelog                                                                 %%
+%%  v0.0.1 beta (2021-02-16, Yicheng Zhang)                                   %%
+%%    * 初始版本                                                               %%
+%%    * 修正了正文部分奇数页页眉会多出一个阿拉伯数字的章号                      %%
+%%  v1.0.0 (2026-05-10, LiuyiRigel)                                           %%
+%%    * 清理废弃/重复的包加载代码                                              %%
+%%    * 修复多处注释笔误（Petrolchemical→Petrochemical, Technolgy→Technology） %%
+%%    * 更新头部信息（版本号、作者、维护者、GitHub 仓库地址）                  %%
+%%    * 优化代码可读性与维护性                                                 %%
 %%                                                                            %%                  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
 %%----------  Class Identification ---------------------%%
-\newcommand\fileversion{0.0.1 $\alpha$}
-\newcommand\filedate{2021/02/16}
+\newcommand\fileversion{1.0.0}
+\newcommand\filedate{2026/05/10}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{gduptbe}[\filedate ~ A Bachelor Assertation class file
- by Yicheng Zhang (Ver.~\fileversion)]
-\typeout{ github url }
+ by Yicheng Zhang, maintained by LiuyiRigel (Ver.~\fileversion)]
+\typeout{https://github.com/LiuyiRigel/GDUPT-Latex}
 
 %%-------------------- Error Hints --------------------%%
 \newcommand\gdupt@error[1]{%
